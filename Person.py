@@ -1,7 +1,6 @@
 import random
 
 
-
 class Person(object):
     '''
     Person objects will populate the simulation.
@@ -12,7 +11,6 @@ class Person(object):
     is_alive: Bool. All person objects begin alive (value set to true).  Changed
         to false if person object dies from an infection.
     infection:  None/Virus object.  Set to None for people that are not infected.
-
     _____Methods_____:
     __init__(self, _id, is_vaccinated, infected=False):
         - self.alive should be automatically set to true during instantiation.
